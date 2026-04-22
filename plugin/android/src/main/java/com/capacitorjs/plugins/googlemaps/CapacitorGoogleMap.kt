@@ -892,7 +892,7 @@ class CapacitorGoogleMap(
                     } else {
                         stream = this.delegate.context.assets.open("public/${marker.iconUrl}")
                     }
-                    var bitmap = BitmapFactory.decodeStream(stream)
+                    val bitmap = BitmapFactory.decodeStream(stream)
                     this.markerIcons[marker.iconUrl!!] = bitmap
                     markerOptions.icon(getResizedIcon(bitmap, marker))
                 } catch (e: Exception) {
