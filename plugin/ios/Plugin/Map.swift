@@ -2,7 +2,7 @@ import Foundation
 import GoogleMaps
 import Capacitor
 import GoogleMapsUtils
-
+// version 7.0.0 with base 64
 public struct LatLng: Codable {
     let lat: Double
     let lng: Double
